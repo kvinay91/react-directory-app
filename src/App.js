@@ -46,6 +46,7 @@ function App() {
       </div>
 
       <FootballMatches />
+      <SelectAllCheckbox />
     </>
   );
 }

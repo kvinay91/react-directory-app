@@ -1,6 +1,7 @@
 import "./App.css";
 import Directory from "./components/directory";
 import FootballMatches from "./components/footbalMatches";
+import SelectAllCheckbox from "./components/select-all-checkbox";
 import useResizeHook from "./hooks/resizehooks";
 
 const folderStructure = [

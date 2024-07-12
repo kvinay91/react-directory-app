@@ -2,6 +2,7 @@ import "./App.css";
 import Directory from "./components/directory";
 import FootballMatches from "./components/footbalMatches";
 import SelectAllCheckbox from "./components/select-all-checkbox";
+import Stopwatchcount from "./components/stop-watch-count";
 import useResizeHook from "./hooks/resizehooks";
 
 const folderStructure = [
@@ -48,6 +49,8 @@ function App() {
 
       <FootballMatches />
       <SelectAllCheckbox />
+
+      <Stopwatchcount INITIAL_COUNT={10} />
     </>
   );
 }
